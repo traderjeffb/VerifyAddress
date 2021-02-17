@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<AddressValidateRequest USERID="300ASONS2245">
+	<Revision>1</Revision>
+	<Address ID="0">
+		<Address1>2335 S State</Address1>
+		<Address2>Suite 300</Address2>
+		<City>Provo</City>
+		<State>UT</State>
+		<Zip5>84604</Zip5>
+		<Zip4/>
+	</Address>
+</AddressValidateRequest>

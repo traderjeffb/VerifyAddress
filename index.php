@@ -33,11 +33,11 @@
 <p>Above the "submit" button enters the addresss into the database</p>
 <p>The "List" button prints a list of all addresses to the screen.</p>
 <P>------------------------------------</P>
-<p>Below the "API" button was supposed to print out both the address entered and the address verified by the USPS. The API section of code is not working. </p>
+<p>Below the "API" button was supposed to print out both the address entered and the address verified by the USPS.<br> The API section of code is hard coded so the address input does not function properly yet</p>
 </div>
 
 
-<form action="addressChecker.php" method="post">
+<form id="adressForm" name="addressForm" action="checkAddress.php" method="post">
 <label for="address1">Address :</label>
   <input type="text" id="address1" name="address1"><br><br>
 
